@@ -9,6 +9,11 @@ body {
   align-items: center;
   margin: 0;
   background-color: #d6d0b6;
+  font-family: "Roboto Mono", monospace;
+}
+
+h2 {
+  text-align: center;
 }
 
 img {
@@ -31,6 +36,7 @@ img {
   margin-bottom: 10px;
   transition: all 700ms ease-in;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .active {
